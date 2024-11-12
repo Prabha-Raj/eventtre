@@ -1,0 +1,110 @@
+.ticket-sec{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.ticket-sec h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: .5;
+}
+.ticket-sec h1 span{
+    font-style: italic;
+    font-weight: 350;
+    color: #ff6600;
+}
+.ticket-sec p{
+    font-size: 17px;
+    color: gray;
+}
+.ticket-sec .ticket-card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.ticket-card-wrapper .ticket-card{
+    height: 90vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid #e6e2e2dc;
+    z-index: 1;
+    
+}
+.ticket-card .sec1{
+    height: 40%;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #eeecec4f;
+
+}
+.sec1 .person{
+    color: gray;
+    font-size: 20px;
+}
+.ticket-card .sec2{
+    height: 40%;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.ticket-card .sec2 .available{
+    color: #ff6600;
+}
+.ticket-card .sec2 .unavailable{
+    color:#afacacec;
+}
+.ticket-card .sec3{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    
+}
+.ticket-card .sec3 button{
+    height: 50px;
+    width: 180px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #8080806e;
+    
+}
+.ticket-card .sec3 button:hover{
+    background-color: #ff6600;
+    color:white;
+}
+.standard-card{
+    z-index: 4;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.standard-card button{
+    background-color: #ff6600;
+    color: white;
+}
+.ticket-card:hover {
+    z-index: 4;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.08);
+    transition: all ease-in-out .6s;
+    
+}
+.ticket-card:hover .sec1 {
+    background-color: #ff6600;
+    color: white;
+    transition: all ease-in-out .6s;
+}
+.ticket-card:hover .person {
+    color: white;
+    transition: all ease-in-out .6s;
+}

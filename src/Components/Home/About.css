@@ -1,0 +1,64 @@
+.about-section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.left div{
+    height: 350px;
+    width: 350px;
+    height: 350px;
+    width: 350px;
+    background-image: url("https://img.freepik.com/free-vector/black-white-halftone-pattern-texture-background_84443-21975.jpg?size=626&ext=jpg&ga=GA1.1.1494204880.1717985110&semt=ais_hybrid");
+    /* background-image: url("https://demo.themefisher.com/eventre-bootstrap/images/background/schedule-bg.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left div img{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    
+}
+.left{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+.right div{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:20px;
+}
+.right div button{
+    height: 50px;
+    width: 150px;
+    padding: 10px 30px;
+    border: 1px solid #e9e4e4;
+
+}
+.right div button:hover{
+    color: white;
+    background-color: #ff6600;
+}

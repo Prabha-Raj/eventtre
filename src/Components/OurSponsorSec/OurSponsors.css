@@ -1,0 +1,115 @@
+.sponsors-container{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background:url('https://demo.themefisher.com/eventre-bootstrap/images/background/sponsors-bg.jpg') no-repeat center center/cover fixed ;
+    position: relative;
+}
+.sponsors-container::after{
+    content: '';
+    background: linear-gradient(0deg, rgba(245, 245, 248, 0.8) 0%, #f7f7f7 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.first-sec, .second-sec, .third-sec , .fourth-sec{
+    z-index: 2;
+}
+.first-sec, .fourth-sec{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.second-sec{
+    height:250px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.third-sec{
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.fourth-sec{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.first-sec h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.first-sec span{
+    font-weight: normal;
+    font-style: italic;
+    color: #ff6600;
+}
+.first-sec p{
+    font-size: 17px;
+    color: gray;
+}
+
+.sponsors-container div h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ff6600;
+}
+.img-wrapper{
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.img-wrapper .img-conatiner{
+    height: 150px;
+    width: 250px;
+    /* border: 1px solid; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth-sec button{
+    height: 50px;
+    width: 250px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.img-conatiner:hover{
+    z-index: 4;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ff6600;
+    transform: scale(1.08);
+    transition: all ease-in-out .6s;
+}

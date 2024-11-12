@@ -1,0 +1,51 @@
+.calender-wrapper{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+}
+.calender-wrapper table{
+    height: 100%;
+    width: 100%;
+}
+.calender-wrapper table thead tr{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #ff6600;
+    color: white;
+}
+
+.calender-wrapper table tr{
+    color: #000000de;
+    height: 85px;
+    width: 100%;
+    padding:10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+}
+.calender-wrapper tbody tr:hover{
+    z-index: 5;
+    box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.01);
+    transition: all ease-in-out .2s;
+}
+.calender-wrapper table tr td, th{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    padding:10px 20px;
+    padding-left: 20px;
+    width: 260px;
+    /* border: 1px solid; */
+    
+}

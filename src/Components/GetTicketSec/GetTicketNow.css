@@ -1,0 +1,72 @@
+
+.get-ticket-container{
+    height: 70vh;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-now-sec{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url("https://demo.themefisher.com/eventre-bootstrap/images/background/cta-ticket-bg.jpg") no-repeat center center/cover fixed;
+
+}
+.get-now-left{
+    height: 100%;
+    width: 60%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get-now-left .text-wrapper{
+    height: 60%;
+    width: 80%;
+    color: white;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:center;
+    gap: 45px;
+    
+}
+.get-now-text{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-between;
+    gap: 10px;
+}
+.get-now-text h2{
+    font-size: 35px;
+}
+.get-now-text h2 span{
+    color: #ff6600;
+    font-style: italic;
+}
+.text-wrapper button{
+    width: 180px;
+    height: 58px;
+    background-color: #ff6600;
+    border: none;
+    font-size: 17px;
+}
+.get-now-right{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid; */
+    padding: 0 20px;
+}
+.get-now-right img{
+    height: 80vh;
+    transform:translateY(-61px);
+
+}

@@ -1,0 +1,68 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.nav-logo{
+    border-right: 1px solid #80808048;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item-container{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #000000a9;
+    
+}
+.nav-item{
+padding: 10px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center ;
+/* border: 1px solid; */
+}
+.nav-item:hover {
+    color: #ff6600;
+}
+
+
+.nav-ticket{
+    /* border:1px solid; */
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff6600;
+    color: white;
+    font-size: 17px;
+}
+.nav-ticket .nav-item{
+    border-left: 1px solid #ffffff73;
+    height: 20px;
+    width: 150px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

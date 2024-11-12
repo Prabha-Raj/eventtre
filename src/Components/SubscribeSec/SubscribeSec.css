@@ -1,0 +1,62 @@
+.subscribe-sec{
+    height: 40vh;
+    width: 100%;
+    background: url('https://demo.themefisher.com/eventre-bootstrap/images/background/newsletter-bg.jpg') no-repeat center center/cover fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.subscribe-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 2;
+}
+.subscribe-sec::after{
+    content: '';
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%,#1d1546 0%,#1a0b25 100%,#207cca 100%);
+    opacity: .75;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.subscribe-sec h2{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+}
+.subscribe-sec h2 span{
+    font-style: italic;
+    font-weight: normal;
+    color: #ff6600;
+}
+.subscribe-sec p{
+    font-size: 16px;
+    color: white;
+}
+
+.subscribe-sec input{
+    height: 60px;
+    width: 400px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.subscribe-sec button{
+    height: 60px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #ff6600;
+    border: none;
+}
+.subscribe-wrapper button:hover{
+    background-color: #e75e08;
+}

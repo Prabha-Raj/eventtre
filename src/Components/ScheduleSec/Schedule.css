@@ -1,0 +1,77 @@
+.schedule-container{
+    height: 200vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.schedule-container .top{
+    width: 100%;
+    height: 50vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.schedule-container .top .schedule-heading{
+    gap: 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+}
+.top .schedule-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+/* 8586003472 */
+.schedule-nav .item{
+    height: 90px;
+    width: 200px;
+    border: 1px solid #f0ececef;
+    padding: 5px 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.item h1{
+    font-size: 30px;
+    color: #ff6600;
+}
+.item p{
+    font-size: 18px;
+    color: gray;
+}
+.schedule-container .bottum{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 20px 80px;
+
+}
+.bottum .calender-container{
+    margin: 0 auto;
+    height: 90%;
+    width: 95%;
+    /* background-image: url("https://img.freepik.com/free-vector/black-white-halftone-pattern-texture-background_84443-21975.jpg?size=626&ext=jpg&ga=GA1.1.1494204880.1717985110&semt=ais_hybrid"); */
+    background-image: url("https://demo.themefisher.com/eventre-bootstrap/images/background/schedule-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    /* border: 1px solid; */
+}
